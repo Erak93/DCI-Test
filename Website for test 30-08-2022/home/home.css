@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+.menu-navigation {
+  background-color: rgb(61, 60, 60);
+  display: flex;
+  padding: 10px 35px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  list-style: none;
+}
+
+.menu-navigation li a {
+  margin: 15px;
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+  border: solid red;
+  border-radius: 10px;
+  padding: 2px 8px;
+  background-image: linear-gradient(red, black);
+}
+
+.menu-navigation li a:hover {
+  background-image: linear-gradient(black, red);
+}
+
+.header {
+  height: 90vh;
+  background-image: url(../img/home-section/The\ Witcher\ Universe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-header {
+  background-color: rgba(0, 0, 0, 0.371);
+}
+
+.sub-header h1 {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+#intro {
+  text-align: left;
+}
+.divider {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.witcher-1 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.witcher-1 p {
+  margin-left: 1em;
+}
+
+.witcher-1-paragraphs {
+  font-weight: bold;
+}
+
+#witcher-2-cover {
+  width: 300px;
+}
+
+#witcher-3-cover {
+  width: 300px;
+}
+
+.link-explore-games {
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+  border: solid red;
+  border-radius: 10px;
+  padding: 2px 8px;
+  background-image: linear-gradient(red, black);
+}
+
+.link-explore-games:hover {
+  background-image: linear-gradient(black, red);
+}
+
+.books-covers {
+  width: 300px;
+}
+
+footer {
+  background-color: rgb(61, 60, 60);
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#soundcloud {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: red;
+}
